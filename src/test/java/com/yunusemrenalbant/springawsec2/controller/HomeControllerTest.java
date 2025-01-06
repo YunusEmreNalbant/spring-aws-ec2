@@ -19,6 +19,6 @@ public class HomeControllerTest {
     public void testHello() throws Exception {
         mockMvc.perform(get("/"))
                 .andExpect(status().isOk())
-                .andExpect(content().string("merhaba yunus - CI/CD test"));
+                .andExpect(content().string("merhaba yunus - CI/CD testt"));
     }
 } 
